@@ -1,0 +1,33 @@
+#intro {
+  font-size: 2em;
+  text-align: center;
+}
+
+#intro :link {
+  display: block;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 2rem auto;
+}
+
+.github {
+  height: 1em;
+  vertical-align: middle;
+}
+
+#logo {
+  height: 40%;
+  margin: 1em auto;
+  width: fit-content;
+}
+
+#logo > img {
+  height: 100%;
+}
+
+#intro > div > time {
+  display: block;
+  margin: 1em 0;
+}

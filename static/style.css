@@ -1,3 +1,157 @@
-.rp-canvas {
-  background: #FFF;
+@import "https://unpkg.com/@liqvid/recording/dist/style.css";
+@import "./intro.css";
+
+@media (prefers-color-scheme: dark) {
+  .lv-canvas {
+    background: #333;
+    color: #fff;
+  }
+}
+
+body {
+  --tojs: #9c1d14;
+  font-family: sans-serif;
+}
+
+.lv-controls {
+  display: none;
+}
+
+:link, :visited {
+  color: #ff0070;
+}
+
+.highlight {
+  background-color: rgb(210, 210, 200);
+  display: block;
+}
+
+picture {
+  border-radius: 1em;
+}
+
+#safari {
+  font-size: 10em;
+  height: 40%;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#safari > img {
+  height: 100%;
+}
+
+.lv-canvas {
+  user-select: text;
+}
+
+.lv-canvas > * {
+  position: absolute;
+}
+
+nav {
+  background: var(--tojs);
+  color: #fff;
+  height: 5%;
+  width: 100%;
+}
+
+nav > button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 2em;
+  height: 100%;
+  padding: 0 .2em;
+  vertical-align: middle;
+}
+
+nav > button:hover {
+  background-color: #0002;
+}
+
+nav > ul {
+  display: inline-block;
+  height: 100%;
+  list-style: none;
+  vertical-align: middle;
+}
+
+nav > ul > li {
+  display: inline-block;
+  height: 100%;
+  margin: 0 .5em;
+}
+
+nav > ul > li > :link, nav > ul > li > :visited {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+nav > ul > li > :link:hover {
+  color: #000;
+}
+
+section {
+  font-size: 1.4rem;
+  height: 95%;
+  top: 5%;
+  width: 100%;
+}
+
+/* slides */
+section > div {
+  height: 100%;
+  width: 100%;
+  padding: 1em 2em;
+  position: absolute;
+}
+
+h2 {
+  font-family: Alegreya;
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 2em;
+  margin: .5em 0;
+}
+
+dl > * {
+  float: left;
+  margin: .5em 0;
+}
+
+pre, code {
+  border-radius: .15em;
+  line-height: 1.2 !important;
+  user-select: text;
+}
+
+dl > dd {
+  clear: left;
+}
+
+dl > dt::before {
+  content: "Problem. ";
+  font-weight: bold;
+}
+
+dl > dd::before {
+  content: "Solution. ";
+  font-weight: bold;
+}
+
+#sucks {
+  color: var(--tojs);
+  display: block;
+  font-style: italic;
+}
+
+p {
+  margin: .5em 0;
 }
