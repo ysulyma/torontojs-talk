@@ -1,4 +1,5 @@
 # built files
+dist
 static/bundle.js
 
 # dependencies

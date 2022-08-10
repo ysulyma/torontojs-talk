@@ -17,6 +17,11 @@ body {
   display: none;
 }
 
+iframe {
+  aspect-ratio: 16 / 10;
+  width: 90%;
+}
+
 :link, :visited {
   color: #ff0070;
 }

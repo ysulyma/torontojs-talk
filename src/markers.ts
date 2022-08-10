@@ -1,7 +1,8 @@
 import {Script} from "liqvid";
 
 export const markers = [
-  ["intro/", "1:00"],
+  ["intro/title", "1:00"],
+  ["intro/shock", "1:00"],
   // ["design/", "1:00"],
   ["design/playback", "1:00"],
   ["design/replay", "1:00"],
@@ -37,4 +38,4 @@ export const markers = [
 export const script = new Script(markers);
 export const playback = script.playback;
 
-playback.seek(script.parseStart("interop/esm"));
+playback.seek(script.parseStart("intro/shock"));
