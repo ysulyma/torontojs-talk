@@ -10,7 +10,10 @@ export function IntroSlide() {
           <img alt="Liqvid logo: stylized play button" src="https://d2og9lpzrymesl.cloudfront.net/r/lv-tutorial/img/logo.png" />
         </Link>
         <time dateTime="2022-08-03">August 3, 2022</time>
-        <Link data-affords="click" href="https://github.com/ysulyma/torontojs-talk">
+        <Link href="https://torontojs-talk.vercel.app">
+          View this presentation
+        </Link>
+        <Link href="https://github.com/ysulyma/torontojs-talk">
           <img alt="GitHub logo" className="github" src="./github-icon.svg" /> Clone this presentation
         </Link>
       </div>
