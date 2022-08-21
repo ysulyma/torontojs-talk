@@ -17,9 +17,17 @@ body {
   display: none;
 }
 
-iframe {
+iframe, iframe:focus {
   aspect-ratio: 16 / 10;
+  /* border-color: #red !important; */
+  outline: 1px solid #eee;
   width: 90%;
+}
+
+@media (prefers-color-scheme: dark) {
+  iframe, iframe:focus {
+    outline-color: #222;
+  }
 }
 
 :link, :visited {

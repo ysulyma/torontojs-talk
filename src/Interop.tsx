@@ -3,7 +3,7 @@ import {Link} from "./Link";
 import {samples} from "./samples";
 import {d} from "./utils";
 
-export function Interop {
+export function Interop() {
   return (
     <section id="interop" {...d("interop/")}>
       <div {...d("interop/esm")}>

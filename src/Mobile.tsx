@@ -15,7 +15,7 @@ export function MobileSlide() {
     <section id="mobile" {...d("mobile/")}>
       <div {...d("mobile/title")}>
         <h2>Making it work on mobile <span id="sucks" {...f("mobile/title/sucks")}>or: iOS Safari sucks ass</span></h2>
-        <p id="safari">
+        <p id="safari" {...f("mobile/title/sucks")}>
           <img alt="Safari logo" id="safari" src="./safari-icon.svg" />
           👎
         </p>

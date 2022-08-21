@@ -2,7 +2,9 @@ import {Script} from "liqvid";
 
 export const markers = [
   ["intro/title", "1:00"],
-  ["intro/shock", "1:00"],
+  ["intro/shock/1", "1:00"],
+  ["intro/shock/2", "1:00"],
+  ["intro/shock/3", "1:00"],
   // ["design/", "1:00"],
   ["design/playback", "1:00"],
   ["design/replay", "1:00"],
@@ -38,4 +40,4 @@ export const markers = [
 export const script = new Script(markers);
 export const playback = script.playback;
 
-playback.seek(script.parseStart("intro/shock"));
+// playback.seek(script.parseStart("intro/shock/2"));
